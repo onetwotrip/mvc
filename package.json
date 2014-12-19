@@ -1,0 +1,13 @@
+{
+  "name": "MVC",
+  "version": "0.0.1",
+  "author": "h3x3d",
+  "keywords": [
+    "mvc"
+  ],
+  "description": "Simple mvc library",
+  "dependencies": {
+    "express": "^4.10.6",
+    "class": "git+https://github.com/h3x3d/class.git"
+  }
+}
