@@ -8,6 +8,6 @@
   "description": "Simple mvc library",
   "dependencies": {
     "express": "^4.10.6",
-    "class": "git+https://github.com/h3x3d/class.git"
+    "class": "git+https://github.com/onetwotrip/class.git"
   }
 }
