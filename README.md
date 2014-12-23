@@ -6,7 +6,7 @@ var mvc = require('mvc');
 
 var Controller = mvc.Controller;
 var app = mvc.application;
-var Router = mvc.router;
+var Router = mvc.Router;
 
 var MyCtrl = Controller.extend(function(){
     this._construct.apply(this, arguments);
