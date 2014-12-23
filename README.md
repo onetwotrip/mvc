@@ -5,8 +5,8 @@ Do not use :)
 var mvc = require('mvc');
 
 var Controller = mvc.Controller;
-var app = mvc.application;
 var Router = mvc.Router;
+var app = mvc.application;
 
 var MyCtrl = Controller.extend(function(){
     this._construct.apply(this, arguments);
