@@ -10,14 +10,13 @@ var Router = mvc.router;
 
 var MyCtrl = Controller.extend(function(){
     this._construct.apply(this, arguments);
-
     return this;
 });
 
-MyCtrl.prototype.test = function(next){
+MyCtrl.action('test', function(){
     this.res.json({controller: true});
     next();
-};
+});
 
 var router = new Router(null, function(ctlrl){
     return function(){
