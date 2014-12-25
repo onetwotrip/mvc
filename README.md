@@ -32,3 +32,7 @@ router.get('/ctrl', 'myctrl#test');
 
 app(router).listen(process.env.PORT);
 ```
+
+TODO
+- Write tests
+- Improve filters performance
